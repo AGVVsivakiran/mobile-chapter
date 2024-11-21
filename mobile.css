@@ -1,0 +1,35 @@
+/* chapter header start */
+.mobile-chapter h1 {
+    font-size: 26px;
+    margin-right: 5px;
+    font-weight: 700;
+    font-family: serif;
+}
+/* chapter header end */
+/* chapter para start */
+.mobile-chapter p{
+    font-size: 15px;
+    margin-right: 5px;
+    font-family: serif;
+    margin-bottom: 2px;
+}
+/* chapter para end */
+/* mobile screen start */
+.mobile-screen {
+    max-height: 100%;
+}
+/* mobile screen end */
+/* number start */
+.mobile-chapter span{
+border-radius: 50%;
+border: 2px solid #eee;
+padding: 5px 13px;
+background-color: #efefef;
+transition: all 0.5s ease-in-out;
+}
+.mobile-chapter span:hover{
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #000;
+}
+/* number end */
